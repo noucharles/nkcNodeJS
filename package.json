@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/noucharles/nkcNodeJS/issues"
   },
-  "homepage": "https://github.com/noucharles/nkcNodeJS#readme"
+  "homepage": "https://github.com/noucharles/nkcNodeJS#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.8"
+  }
 }
