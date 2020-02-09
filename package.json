@@ -1,0 +1,19 @@
+{
+  "name": "nkcnodejs",
+  "version": "1.0.0",
+  "description": "node nkc",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noucharles/nkcNodeJS.git"
+  },
+  "author": "N.K.C",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noucharles/nkcNodeJS/issues"
+  },
+  "homepage": "https://github.com/noucharles/nkcNodeJS#readme"
+}
