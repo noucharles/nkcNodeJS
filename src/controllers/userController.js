@@ -1,5 +1,7 @@
 const userModel = require('../models/userModel.js');
 const mongoose = require('mongoose');
+const createHash = require('create-hash');
+
 
 // const User = mongoose.model('User');
 
@@ -51,10 +53,11 @@ module.exports = {
      * userController.create()
      */
     create: function (req, res) {
+        const safePwd = createHash('whirlpool').update(req.body.password).digest('base64');
         var user = new userModel({
 			login : req.body.login,
 			email : req.body.email,
-			password : req.body.password
+			password : safePwd
 
         });
 
