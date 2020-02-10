@@ -1,4 +1,8 @@
-var userModel = require('../models/userModel.js');
+const userModel = require('../models/userModel.js');
+const mongoose = require('mongoose');
+
+// const User = mongoose.model('User');
+
 
 /**
  * userController.js
